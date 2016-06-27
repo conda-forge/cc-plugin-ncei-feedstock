@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -9,7 +9,7 @@ source:
   fn: cc-plugin-ncei-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/c/cc-plugin-ncei/cc-plugin-ncei-{{ version }}.tar.gz
   url: https://github.com/ioos/cc-plugin-ncei/archive/{{ version }}.tar.gz
-  sha256: 501cd9c1f19b7183fe0211f789895467a3203c889df5333e5b5a3f6e845cd81e
+  sha256: 7eea0bc9067b7ab6bff9c5da32f76d752af3b8847882339c6a0c61de1bac4138
 
 build:
     number: 0
