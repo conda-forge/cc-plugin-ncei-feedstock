@@ -1,43 +1,43 @@
-{% set version = "1.0.1" %}
-
+{% set version = "2.0.0" %}
 
 package:
-    name: cc-plugin-ncei
-    version: {{ version }}
+  name: cc-plugin-ncei
+  version: {{ version }}
 
 source:
   fn: cc-plugin-ncei-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/c/cc-plugin-ncei/cc-plugin-ncei-{{ version }}.tar.gz
   url: https://github.com/ioos/cc-plugin-ncei/archive/{{ version }}.tar.gz
-  sha256: 7eea0bc9067b7ab6bff9c5da32f76d752af3b8847882339c6a0c61de1bac4138
+  sha256: 474728202ec9902af63ee352101c6fd2ae87132208d9fbe0b3cff91e7f57b030
 
 build:
-    number: 0
-    preserve_egg_dir: True
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  preserve_egg_dir: True
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - compliance-checker >=1.0.0
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - compliance-checker >=1.0.0
+    - isodate
 
 test:
-    imports:
-        - cc_plugin_ncei
-        - cc_plugin_ncei.tests
+  imports:
+    - cc_plugin_ncei
+    - cc_plugin_ncei.tests
+    - compliance-checker -t ncei-trajectoryprofile-orthogonal -v https://data.nodc.noaa.gov/thredds/dodsC/testdata/mbiddle/GOLD_STANDARD_NETCDF/1.1/NODC_trajectoryProfile_template_v1.1_2016-06-15_133721.704494.nc
 
 about:
-    home: https://github.com/ioos/cc-plugin-ncei/
-    license: Apache 2.0
-    summary: Compliance Checker NCEI Templates Compliance plugin
+  home: https://github.com/ioos/cc-plugin-ncei/
+  license: Apache 2.0
+  summary: 'Compliance Checker NCEI Templates Compliance plugin.'
 
 extra:
-    recipe-maintainers:
-        - benjwadams
-        - daf
-        - kwilcox
-        - lukecampbell
-        - ocefpaf
+  recipe-maintainers:
+    - benjwadams
+    - daf
+    - kwilcox
+    - lukecampbell
+    - ocefpaf
