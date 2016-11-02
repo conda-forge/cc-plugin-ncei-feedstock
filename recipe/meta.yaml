@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: cc-plugin-ncei
@@ -7,7 +7,7 @@ package:
 source:
   fn: cc-plugin-ncei-{{ version }}.tar.gz
   url: https://github.com/ioos/cc-plugin-ncei/archive/{{ version }}.tar.gz
-  sha256: 474728202ec9902af63ee352101c6fd2ae87132208d9fbe0b3cff91e7f57b030
+  sha256: 420cbc9dbf0e28c454a97ab127dad1d5de377efdc0d48b29908628fa0a981516
 
 build:
   number: 0
