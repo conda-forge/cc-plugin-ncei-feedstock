@@ -28,7 +28,7 @@ test:
     - cc_plugin_ncei
     - cc_plugin_ncei.tests
   commands:
-    - compliance-checker -t ncei-trajectoryprofile-orthogonal -v https://data.nodc.noaa.gov/thredds/dodsC/testdata/mbiddle/GOLD_STANDARD_NETCDF/1.1/NODC_trajectoryProfile_template_v1.1_2016-06-15_133721.704494.nc
+    - compliance-checker -t ncei-trajectory-profile-orthogonal -v https://data.nodc.noaa.gov/thredds/dodsC/testdata/mbiddle/GOLD_STANDARD_NETCDF/1.1/NODC_trajectoryProfile_template_v1.1_2016-06-15_133721.704494.nc
 
 about:
   home: https://github.com/ioos/cc-plugin-ncei/
