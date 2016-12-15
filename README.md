@@ -11,6 +11,18 @@ Summary: Compliance Checker NCEI Templates Compliance plugin.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cc-plugin-ncei-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cc-plugin-ncei-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/cc-plugin-ncei-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cc-plugin-ncei-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cc-plugin-ncei-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cc-plugin-ncei-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cc-plugin-ncei/badges/version.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cc-plugin-ncei/badges/downloads.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei)
+
 Installing cc-plugin-ncei
 =========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `cc-plugin-ncei` available on your
 ```
 conda search cc-plugin-ncei --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cc-plugin-ncei-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cc-plugin-ncei-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cc-plugin-ncei-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cc-plugin-ncei-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cc-plugin-ncei-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cc-plugin-ncei-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cc-plugin-ncei/badges/version.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cc-plugin-ncei/badges/downloads.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei)
 
 
 Updating cc-plugin-ncei-feedstock
