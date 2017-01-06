@@ -33,6 +33,7 @@ test:
 about:
   home: https://github.com/ioos/cc-plugin-ncei/
   license: Apache 2.0
+  license_file: LICENSE
   summary: 'Compliance Checker NCEI Templates Compliance plugin.'
 
 extra:
