@@ -14,14 +14,16 @@ Summary: Compliance Checker NCEI Templates Compliance plugin.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cc-plugin-ncei-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cc-plugin-ncei-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cc-plugin-ncei-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cc-plugin-ncei-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cc-plugin-ncei-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cc-plugin-ncei-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cc-plugin-ncei-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cc-plugin-ncei-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/cc-plugin-ncei-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cc-plugin-ncei-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/cc-plugin-ncei-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/cc-plugin-ncei-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cc-plugin-ncei/badges/version.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cc-plugin-ncei/badges/downloads.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cc--plugin--ncei-green.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cc-plugin-ncei.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cc-plugin-ncei.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cc-plugin-ncei.svg)](https://anaconda.org/conda-forge/cc-plugin-ncei) |
 
 Installing cc-plugin-ncei
 =========================
