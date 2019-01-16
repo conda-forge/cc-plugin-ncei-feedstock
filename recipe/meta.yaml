@@ -9,9 +9,9 @@ source:
   sha256: bd84128a197c244b3cc422eed7735d1fb6163371b7c1764fc52a3a06c5297af2
 
 build:
-  number: 2
+  number: 3
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
@@ -20,8 +20,8 @@ requirements:
   run:
     - python
     - compliance-checker >=2.2.0
-    - isodate 0.5.4
-    - six
+    - isodate >=0.5.4
+    - six >=1.10.0
 
 test:
   imports:
