@@ -5,25 +5,28 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/c/cc-plugin-ncei/cc-plugin-ncei-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/c/cc-plugin-ncei/cc-plugin-ncei-{{ version }}.tar.gz
   sha256: bd84128a197c244b3cc422eed7735d1fb6163371b7c1764fc52a3a06c5297af2
 
 build:
-  number: 3
+  number: 4
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
+    - setuptools
     - pip
   run:
-    - python
+    - python >={{ python_min }}
     - compliance-checker >=2.2.0
     - isodate >=0.5.4
     - six >=1.10.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - cc_plugin_ncei
   commands:
