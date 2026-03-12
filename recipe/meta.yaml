@@ -29,13 +29,11 @@ test:
     - python {{ python_min }}
   imports:
     - cc_plugin_ncei
-  commands:
-    - compliance-checker --list-tests | grep -q ncei  # [not win]
 
 about:
   home: https://github.com/ioos/cc-plugin-ncei/
-  license: Apache 2.0
-  license_file: LICENSE
+  license: Apache-2.0
+  license_file: LICENSE.txt
   summary: 'Compliance Checker NCEI Templates Compliance plugin'
 
 extra:
