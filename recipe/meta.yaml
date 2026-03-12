@@ -1,15 +1,15 @@
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 
 package:
   name: cc-plugin-ncei
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/c/cc-plugin-ncei/cc-plugin-ncei-{{ version }}.tar.gz
-  sha256: bd84128a197c244b3cc422eed7735d1fb6163371b7c1764fc52a3a06c5297af2
+  url: https://pypi.org/packages/source/c/cc-plugin-ncei/cc_plugin_ncei-{{ version }}.tar.gz
+  sha256: d8f22ce05300d45f63e34e0637e9c6b5bc14e1de6af7aa3e29cff6e81b2875bc
 
 build:
-  number: 4
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
