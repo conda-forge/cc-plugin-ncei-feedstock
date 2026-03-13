@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cc-plugin-ncei-
 
 Home: https://github.com/ioos/cc-plugin-ncei/
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Summary: Compliance Checker NCEI Templates Compliance plugin
 
@@ -149,7 +149,4 @@ Feedstock Maintainers
 * [@kwilcox](https://github.com/kwilcox/)
 * [@lukecampbell](https://github.com/lukecampbell/)
 * [@ocefpaf](https://github.com/ocefpaf/)
-
-
-<!-- dummy commit to enable rerendering -->
 
